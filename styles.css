@@ -1,0 +1,14 @@
+/* AuraCare Styles */
+body {
+  transition: font-size 0.2s ease;
+}
+
+.tab-btn {
+  transition: all 0.2s ease;
+}
+
+/* High contrast accessibility borders */
+button:focus-visible {
+  outline: 3px solid #16a34a;
+  outline-offset: 2px;
+}
